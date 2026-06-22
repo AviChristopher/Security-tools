@@ -2,7 +2,7 @@ import socket    # networking tool
 
 t = "Add target or Ip Address" # Add target/ IP Address
 
-print(f"Scanning{t}....\n")
+print(f"Scanning {t}....\n")
 
 for port in range (1, 65535):   #Testing ports one by one
     s = socket.socket(socket.AF_INET, socket.SOCK_STREAM) # create a connection tool in the module socket
